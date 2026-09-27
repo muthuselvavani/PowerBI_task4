@@ -1,127 +1,141 @@
-POWER-BI-TASK_4
-Project Title
-Stock Price and Volume Analysis Dashboard
+📊 Interactive Dashboard
+📌 Project Overview
+This project is developed using Microsoft Power BI to analyze and visualize data through an interactive dashboard.
 
-File Name
-POWER BI TASK_3(3).pbix
+The main purpose of this project is to transform raw data into meaningful information using different charts, graphs, cards, filters, and other Power BI visualizations.
 
-Description
-This Power BI task focuses on analyzing stock price and trading volume data using interactive visualizations. The dashboard presents important stock price statistics, trading volume trends, moving averages, and date-based filtering.
+The dashboard provides a simple and user-friendly way to understand the data and identify important patterns and insights.
 
-The report was created using Microsoft Power BI to transform the available stock data into an interactive and easy-to-understand dashboard.
+🎯 Objectives
+The main objectives of this Power BI project are:
 
-Tools Used
-Microsoft Power BI Desktop
+To import and organize the given dataset.
+To clean and transform the data using Power Query.
+To create meaningful visualizations from the data.
+To display important information using cards and charts.
+To make the dashboard interactive using filters and slicers.
+To present the data in a simple and understandable format.
+To improve data analysis and decision-making through visualization.
+🛠️ Tools and Technologies Used
+Tool / Technology	Purpose
+Microsoft Power BI	Dashboard creation and data visualization
+Power Query	Data cleaning and transformation
+DAX	Creating calculations and measures
+Data Visualization	Representing data using charts and graphs
+📂 Project Files
+Power-BI-Task-3/
+│
+├── Task3_PBI.pbix
+├── README.md
+│
+└── screenshots/
+    ├── dashboard.png
+    ├── overview.png
+    └── visualization.png
+File Description
+Task3_PBI.pbix The main Power BI Desktop project file containing the dataset, transformations, visualizations, and dashboard.
+
+README.md Documentation of the project.
+
+screenshots/ Contains screenshots of the Power BI dashboard and its visualizations.
+
+🔄 Project Workflow
+The project follows these basic steps:
+
+Raw Data
+   ↓
+Data Import
+   ↓
+Data Cleaning
+   ↓
+Data Transformation
+   ↓
+Data Analysis
+   ↓
+Create Visualizations
+   ↓
+Add Filters / Slicers
+   ↓
+Interactive Dashboard
+🧹 Data Preparation
+The data is prepared using Power Query before creating the dashboard.
+
+The preparation process may include:
+
+Removing unnecessary data
+Handling missing values
+Changing data types
+Renaming columns
+Formatting data
+Removing duplicate records
+Creating required columns
+Preparing the data for visualization
+📊 Dashboard Visualizations
+The dashboard contains different Power BI visuals to represent the data clearly.
+
+1. Cards
+Cards are used to display important summary information such as totals, counts, or other key values.
+
+2. Charts
+Different charts are used to compare values and understand the distribution of the data.
+
+Examples include:
+
+Bar Chart
+Column Chart
+Pie / Donut Chart
+Line Chart
+3. Slicers
+Slicers are used to filter the dashboard interactively based on selected categories or values.
+
+4. Tables
+Tables can be used to display detailed information in an organized format.
+
+📸 Dashboard Screenshots
+🖥️ Main Dashboard
+The following screenshot shows the overall Power BI dashboard with the created visualizations and interactive elements.
+
+<img width="1327" height="757" alt="Screenshot 2026-09-27 202650" src="https://github.com/user-attachments/assets/3861b7b5-eefe-40eb-9538-901cbdc5bc1a" />
+
+🔍 Key Features
+✨ Interactive Dashboard
+Users can interact with the dashboard using filters and slicers.
+
+📊 Data Visualization
+Raw data is represented using different charts and graphs for better understanding.
+
+🧹 Data Transformation
+Power Query is used to clean and prepare the data before visualization.
+
+📌 Easy Data Analysis
+The dashboard makes it easier to identify patterns, comparisons, and important information.
+
+🎨 User-Friendly Design
+The dashboard is designed with a simple layout so that the information can be understood easily.
+
+🚀 How to Run the Project
+To open and view this project:
+
+Install Microsoft Power BI Desktop.
+Download or clone this repository.
+Open the Task3_PBI.pbix file.
+Wait for the data and visuals to load.
+Explore the dashboard using the available filters and slicers.
+💡 Project Outcome
+This project demonstrates how Power BI can be used to convert data into meaningful and interactive visual reports.
+
+The dashboard provides a clear representation of the available data and helps users understand the information through charts, cards, tables, and interactive filters.
+
+📚 Learning Outcomes
+Through this project, I gained practical knowledge of:
+
+Power BI Desktop
+Data importing
 Power Query
-DAX
-Data Visualization
-Data Modeling
-Operations Performed in Power BI
-1. Data Loading
-Imported the stock-related data into Power BI.
-Used the stock data for price and volume analysis.
-Used a date dimension (Dim_Date) for date-based analysis.
-2. Data Preparation
-Prepared the data for analysis using Power BI.
-Organized date and stock-related fields.
-Used the date field as the main category for time-based visualizations.
-3. Data Modeling
-Used the Dim_Date table for date-related analysis.
-Used the Shopify Stock table for stock volume information.
-Created/used measures for important stock calculations.
-4. DAX Measures
-The report contains measures for:
-
-Latest Close – identifies the latest closing price.
-Lowest Price – identifies the lowest stock price.
-Highest Price – identifies the highest stock price.
-Average Volume – calculates the average trading volume.
-Close Price – used for stock price trend analysis.
-20 Day Moving Average – calculates the moving average over 20 days.
-50 Day Moving Average – calculates the moving average over 50 days.
-5. KPI Cards
-Four card visuals were created to display important summary values:
-
-Latest Close
-Lowest Price
-Highest Price
-Average Volume
-These cards provide a quick overview of the stock data.
-
-6. Date Slicer
-A Date Slicer was added to the dashboard.
-
-The slicer allows users to select a particular date or date range and dynamically filter the dashboard visuals.
-
-7. Stock Price Trend Analysis
-A line chart was created using:
-
-Date
-Close Price
-20 Day Moving Average
-This visual helps compare the actual closing price with its 20-day moving average.
-
-8. 50 Day Moving Average Analysis
-Another line chart was created using:
-
-Date
-Close Price
-50 Day Moving Average
-This allows the closing price trend to be compared with the 50-day moving average.
-
-9. Trading Volume Analysis
-A combination chart was created using:
-
-Date
-Sum of Volume
-This visual represents how trading volume changes over time.
-
-10. Price and Volume Comparison
-A combination chart was also created to compare:
-
-Trading Volume
-Close Price
-Date
-This provides a combined view of stock price movement and trading activity.
-
-Visualizations
-Screenshot 2026-09-24 204345
-Visualizations Used
-The report contains the following Power BI visuals:
-
-Visual	Purpose
-Card	Display Latest Close
-Card	Display Lowest Price
-Card	Display Highest Price
-Card	Display Average Volume
-Slicer	Filter data by Date
-Line Chart	Close Price vs 20 Day Moving Average
-Line Chart	Close Price vs 50 Day Moving Average
-Combo Chart	Date vs Trading Volume
-Combo Chart	Date vs Volume and Close Price
-Dashboard Features
-Interactive date filtering
-KPI summary cards
-Stock closing-price analysis
-Trading-volume analysis
-20-day moving average analysis
-50-day moving average analysis
-Combined price and volume analysis
-Interactive Power BI visuals
-Key Fields Used
-Dim_Date
-Date
-Close Price
-Latest Close
-Lowest Price
-Highest Price
-Average Volume
-20 Day Moving Average
-50 Day Moving Average
-Shopify Stock
-Volume
-Outcome
-The completed Power BI report provides an interactive dashboard for understanding stock price movements and trading volume. Users can select dates using the slicer and analyze the corresponding stock information through KPI cards, line charts, and combination charts.
-
-Conclusion
-This Power BI task helped in understanding data loading, data preparation, data modeling, DAX measures, slicers, KPI cards, line charts, combination charts, and time-based stock analysis. The final dashboard presents stock information in a clear and interactive format.
+Data cleaning
+Data transformation
+Data visualization
+Dashboard designing
+Charts and graphs
+Slicers and filters
+Basic DAX calculations
